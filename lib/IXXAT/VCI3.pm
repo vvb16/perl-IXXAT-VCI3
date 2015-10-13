@@ -25,20 +25,20 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 
 # Preloaded methods go here.
 
 use Inline (C => Config =>
-#                libs => '-L"C:\Devel\TBLA_tests\vendor\lib\ia32" -lvcisdk',
-                libs => '-L"C:\Devel\TBLA_tests\vendor\lib\x64" -lvcisdk',
-                inc => '-I"C:\Devel\TBLA_tests\vendor\inc"',
+#                libs => '-L"../../../../IXXAT-SDK/lib/ia32" -lvcisdk',
+                libs => '-L"../../../../IXXAT-SDK/lib/x64" -lvcisdk',
+                inc => '-I"../../../../IXXAT-SDK/inc"',
 #ccflagsex => '-std=c99',
                );
 
 use Inline C => 'DATA',
-           VERSION => '0.06',
+           VERSION => '0.07',
            NAME => 'IXXAT::VCI3';
 
 Inline->init();

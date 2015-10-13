@@ -4,3 +4,16 @@ MANIFEST
 README
 t/IXXAT-VCI3.t
 lib/IXXAT/VCI3.pm
+IXXAT-SDK/inc/CANtype.h
+IXXAT-SDK/inc/KLNtype.h
+IXXAT-SDK/inc/LINtype.h
+IXXAT-SDK/inc/vci3.h
+IXXAT-SDK/inc/vciCtrlType.h
+IXXAT-SDK/inc/vcierr.h
+IXXAT-SDK/inc/vciguid.h
+IXXAT-SDK/inc/vciIdType.h
+IXXAT-SDK/inc/vcinpl.h
+IXXAT-SDK/inc/vcitype.h
+IXXAT-SDK/inc/vciver.h
+IXXAT-SDK/lib/ia32/vcisdk.lib
+IXXAT-SDK/lib/x64/vcisdk.lib
