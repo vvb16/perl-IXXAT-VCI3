@@ -15,5 +15,5 @@ IXXAT-SDK/inc/vciIdType.h
 IXXAT-SDK/inc/vcinpl.h
 IXXAT-SDK/inc/vcitype.h
 IXXAT-SDK/inc/vciver.h
-IXXAT-SDK/lib/ia32/vcisdk.lib
-IXXAT-SDK/lib/x64/vcisdk.lib
+IXXAT-SDK/lib/x86/vcisdk.lib
+IXXAT-SDK/lib/amd64/vcisdk.lib

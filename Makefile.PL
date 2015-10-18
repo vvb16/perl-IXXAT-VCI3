@@ -13,4 +13,7 @@ WriteMakefile(
         'Inline::MakeMaker'     => 0.45,
         'ExtUtils::MakeMaker'   => 6.52,
     },
+    BUILD_REQUIRES  =>  {
+        'Inline::C'     => 0.76,
+    },
 );
